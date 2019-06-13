@@ -19,6 +19,9 @@
   color: white;
 }
 
+#aboutmetitle {
+  margin-top: -40px
+}
 .App-link {
   color: #61dafb;
 }
