@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
 import personalMark from '../images/marcapersonal.png';
-import { Jumbotron, Container } from 'reactstrap';
+import { Jumbotron } from 'reactstrap';
+import NavBar from './NavBar';
+import Portfolio from './Portfolio';
+
 
 class Home extends Component {
   render() {
