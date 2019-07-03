@@ -13,7 +13,7 @@ class Home extends Component {
             <h1 className="display-3">Susana Zápari</h1>
             <p className="lead">Front end Developer</p>
         </Jumbotron>
-        <p>"Agua pasa por mi casa cate de mi corazon el que me lo adivine es un burro cabezon"</p>
+        <p>"Educating the mind without educating the heart is no education at all". Aristotle</p>
         <img src={personalMark} alt="personalMark"/>
       </div>
       );
