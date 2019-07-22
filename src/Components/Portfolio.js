@@ -12,6 +12,7 @@ import { Card, Button, CardImg, CardTitle, CardText, CardGroup,
                         <Card>
                             <CardBody>
                                 <CardTitle>BurgerQueen</CardTitle>
+                                <CardImg></CardImg>
                                 <CardText>This is an App for a restaurant to get a better and optimic 
                                     time and service where the waiter be able to take your order (burgers 
                                     and beverages) and send it to kitchen.</CardText>

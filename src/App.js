@@ -4,6 +4,9 @@ import './App.css';
 import Home from './Components/Home';
 import Portfolio from './Components/Portfolio';
 import NavBar from './Components/NavBar';
+import { Button, Modal, ModalHeader, ModalBody, ModalFooter } from 'reactstrap';
+import { UncontrolledCarousel } from 'reactstrap';
+
 
 function App() {
   return (
@@ -12,6 +15,9 @@ function App() {
       <Home/>
       <AboutMe/>
       <Portfolio/>
+      <Modal/>
+      
+      
       
 
     </div>

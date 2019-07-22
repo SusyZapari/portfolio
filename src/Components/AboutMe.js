@@ -20,12 +20,12 @@ class AboutMe extends Component {
           </ToastBody>
         </Toast>
       </div>
+            <button onclick>Go to my CV</button>
             
-            <button>Go to my CV</button>
             <h1>Abilities</h1>
-            <button>Skills</button>
-            <button>Soft skills</button>
-            <button>My background</button>
+            <button onclick= "/.Home.js">Skills</button>
+            <button onclick>Soft skills</button>
+            <button onclick>My background</button>
             </div>
         );
     }

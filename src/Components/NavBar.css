@@ -1,0 +1,39 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+p {
+    margin-bottom: 20px;
+  }
+  .wrapper {
+    width: 80%;
+    margin: auto;
+    overflow:hidden;
+  }
+  .header {
+    background: gray;
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+  }
+  .Navbar{
+    float: left;
+  }
+  .Navbar Nav {
+    list-style: none;
+    overflow: hidden;
+  }
+  .Navbar Nav .NavItem {
+    float: left;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+  }
+  .Navbar Nav .NavITem .NavLink {
+    padding: 20px;
+    color: #fff;
+    text-decoration: none;
+  }
+  .Navbar Nav .NavItem:hover {
+    background: turquoise;
+    border-radius: 2rem;
+  }
