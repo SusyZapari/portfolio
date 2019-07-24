@@ -35,7 +35,7 @@ class NavBar extends Component {
                                 <NavLink href="#Portfolio"><FontAwesomeIcon icon={faBriefcase} color='pink'/>Portfolio</NavLink>
                             </NavItem>
                             <NavItem>
-                                <NavLink href="mailto:susy.zapari@gmail.com"><FontAwesomeIcon icon={faEnvelopeSquare} color='pink'/>Contact me</NavLink>
+                                <NavLink href="mailto:zapari.developer@gmail.com"><FontAwesomeIcon icon={faEnvelopeSquare} color='pink'/>Contact me</NavLink>
                             </NavItem>
                             <NavItem>
                             </NavItem>

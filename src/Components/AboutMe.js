@@ -1,5 +1,9 @@
 import React, {Component} from "react";
 import { Toast, ToastBody, ToastHeader } from 'reactstrap';
+import wallpaper5 from '../images/wallpaper5.jpeg';
+import sezf from '../images/sezf.jpg';
+import './AboutMe.css';
+
 class AboutMe extends Component {
     render(){
         return (
@@ -7,6 +11,7 @@ class AboutMe extends Component {
                 <hr></hr>
             <h1 id="aboutmetitle">About me</h1>
             <div className="p-3 bg-secondary my-2 rounded">
+            <img className='wallpaper5' background fluid src={wallpaper5}/>
         <Toast>
           <ToastHeader>
             Summary
@@ -19,11 +24,12 @@ class AboutMe extends Component {
           proposals.
           </ToastBody>
         </Toast>
+        <img className='sezf'src={sezf}/>
       </div>
-            <button onclick>Go to my CV</button>
+            <button href= "https://drive.google.com/drive/my-drive"rel="noopnener noreferrer"target="_blank">Go to my CV</button>
             
             <h1>Abilities</h1>
-            <button onclick= "/.Home.js">Skills</button>
+            <button href= "/.Home.js">Skills</button>
             <button onclick>Soft skills</button>
             <button onclick>My background</button>
             </div>
