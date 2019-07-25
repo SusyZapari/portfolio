@@ -8,6 +8,7 @@ import './Home.css';
 
 
 
+
 class Home extends Component {
   render() {
     return (
@@ -19,7 +20,7 @@ class Home extends Component {
             <h1 className="display-3">Susana Zápari</h1>
             <p className="lead">Front end Developer</p>
         </Jumbotron>
-        <p>"Educating the mind without educating the heart is no education at all". Aristotle</p>
+        <p className="text-muted" Educating the mind without educating the heart is no education at all Aristotle></p>
         <img src={personalMark} alt="personalMark"/>
       </div>
       

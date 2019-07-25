@@ -1,5 +1,5 @@
 import React from 'react';
-import { UncontrolledCarousel } from 'reactstrap';
+import { UncontrolledCarousel , CarouselIndicators} from 'reactstrap';
 
 const Carousel = [
     {
@@ -22,6 +22,6 @@ const Carousel = [
     }
   ];
   
-  const abc = () => <UncontrolledCarousel items={items} />;
+  const Carousel = () => <UncontrolledCarousel items={items} />;
   
   export default Carousel;

@@ -29,10 +29,10 @@ class NavBar extends Component {
                     <Collapse isOpen={!this.state.collapsed} navbar>
                         <Nav navbar>
                             <NavItem>
-                                <NavLink href="#Aboutme"><FontAwesomeIcon icon={faAddressCard} color='pink'/>About Me</NavLink>
+                                <NavLink  className='btnhome' href='#AboutMe'><FontAwesomeIcon icon={faAddressCard} color='pink'/>About Me</NavLink>
                             </NavItem>
                             <NavItem>
-                                <NavLink href="#Portfolio"><FontAwesomeIcon icon={faBriefcase} color='pink'/>Portfolio</NavLink>
+                                <NavLink className='btnportfolio' href='#Portfolio'><FontAwesomeIcon icon={faBriefcase} color='pink'/>Portfolio</NavLink>
                             </NavItem>
                             <NavItem>
                                 <NavLink href="mailto:zapari.developer@gmail.com"><FontAwesomeIcon icon={faEnvelopeSquare} color='pink'/>Contact me</NavLink>

@@ -10,7 +10,7 @@ import memoraland from '../images/memoraland.png';
     class Portfolio extends Component {
         render (){
             return (
-                <div>
+                <div id="Portfolio">
                     <hr></hr> <h1>Portfolio</h1> 
                     
                     <CardGroup> 
