@@ -1,4 +1,15 @@
-.wallpaper1 {
-       
+.homeBackground {
+       background-image: url(../images/Wallpaper.jpeg);
    
 }
+.jumbotron{
+    background-color: transparent !important;
+}
+
+.component{
+    min-height: 100vh;
+    justify-content: center;
+    display:flex;
+    flex-direction: column;
+}
+

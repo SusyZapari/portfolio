@@ -7,7 +7,7 @@ import './AboutMe.css';
 class AboutMe extends Component {
     render(){
         return (
-            <div id="AboutMe">
+            <section className="component" id="AboutMe">
                 <hr></hr>
             <h1 id="aboutmetitle">About me</h1>
             <div className="p-3 bg-secondary my-2 rounded">
@@ -32,7 +32,7 @@ class AboutMe extends Component {
             <Button href= "/.Home.js">Skills</Button>
             <Button onClick>Soft skills</Button>
             <Button onClick>My background</Button>
-            </div>
+            </section>
         );
     }
 

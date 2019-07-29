@@ -12,17 +12,16 @@ import './Home.css';
 class Home extends Component {
   render() {
     return (
-      <div>
+      <section className= "component homeBackground">
         <Jumbotron fluid>
         <div> 
-          <img className='wallpaper1' background fluid src={Wallpaper}/>
           </div>
-            <h1 className="display-3">Susana Zápari</h1>
-            <p className="lead">Front end Developer</p>
+            <h1 className="display-3 text-white">Susana Zápari</h1>
+            <h3 className="text-white">Front end Developer</h3>
         </Jumbotron>
         <p className="text-muted" Educating the mind without educating the heart is no education at all Aristotle></p>
-        <img src={personalMark} alt="personalMark"/>
-      </div>
+        {/* <img src={personalMark} alt="personalMark"/> */}
+      </section>
       
       );
     }

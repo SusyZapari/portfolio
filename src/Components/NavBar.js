@@ -24,18 +24,18 @@ class NavBar extends Component {
             <div>
                 <section className= "header">
                 <Navbar color="faded" light expand="md" sticky="top">
-                    <NavbarBrand href="/" className="mr-auto"><FontAwesomeIcon icon={faHome}color='pink'/></NavbarBrand>
+                    {/* <NavbarBrand href="/" className="mr-auto"><FontAwesomeIcon icon={faHome}color='pink'/></NavbarBrand> */}
                     <NavbarToggler onClick={this.toggleNavbar} className="mr-2" />
                     <Collapse isOpen={!this.state.collapsed} navbar>
                         <Nav navbar>
                             <NavItem>
-                                <NavLink  className='btnhome' href='#AboutMe'><FontAwesomeIcon icon={faAddressCard} color='pink'/>About Me</NavLink>
+                                <NavLink  className='btnhome navBarText' href='#AboutMe'><FontAwesomeIcon icon={faAddressCard} color='pink'/> About Me</NavLink>
                             </NavItem>
                             <NavItem>
-                                <NavLink className='btnportfolio' href='#Portfolio'><FontAwesomeIcon icon={faBriefcase} color='pink'/>Portfolio</NavLink>
+                                <NavLink className='btnportfolio navBarText' href='#Portfolio'><FontAwesomeIcon icon={faBriefcase} color='pink'/> Portfolio</NavLink>
                             </NavItem>
                             <NavItem>
-                                <NavLink href="mailto:zapari.developer@gmail.com"><FontAwesomeIcon icon={faEnvelopeSquare} color='pink'/>Contact me</NavLink>
+                                <NavLink className= 'navBarText' href="mailto:zapari.developer@gmail.com"><FontAwesomeIcon icon={faEnvelopeSquare} color='pink'/> Contact me</NavLink>
                             </NavItem>
                             <NavItem>
                             </NavItem>

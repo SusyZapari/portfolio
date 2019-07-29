@@ -10,7 +10,7 @@ import memoraland from '../images/memoraland.png';
     class Portfolio extends Component {
         render (){
             return (
-                <div id="Portfolio">
+                <section className="component" id="Portfolio">
                     <hr></hr> <h1>Portfolio</h1> 
                     
                     <CardGroup> 
@@ -58,7 +58,7 @@ import memoraland from '../images/memoraland.png';
                             </CardBody>
                         </Card>
                     </CardGroup>
-                </div>
+                </section>
             );
         }
     }
