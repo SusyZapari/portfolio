@@ -17,16 +17,16 @@ class AboutMe extends Component {
             Summary
           </ToastHeader>
           <ToastBody>
-          As a passionate life-long learner, I constantly acquire new knowledge; that's how 
-          I discovered the tech world, which fuels my interest in continuous professional 
-          development. Nowadays I'm studying web development at Laboratoria. I am seeking a job
-          position in the field of technology and interested in entrepreneurship and social impact
-          proposals.
+          As a passionate life-long learner, I constantly acquire new knowledge; that's 
+          how I discovered the tech world, which fuels my interest in continuous 
+          professional development. Nowadays I am Front end Developer that's why I am 
+          seeking a job position in the field of technology, besides I am interested in 
+          entrepreneurship and social impact proposals. 
           </ToastBody>
         </Toast>
         <img className='sezf'src={sezf}/>
       </div>
-            <Button href= "https://www.dropbox.com/home?preview=SEZF_CV+imprimir.pdf" rel="noopnener noreferrer" target="_blank">Go to my CV</Button>
+            <Button href= "https://github.com/SusyZapari/susyzapari.github.io/raw/develop/SusanaZapari_Resume.pdf" rel="noopnener noreferrer" target="_blank">Go to my CV</Button>
             
             <h1>Abilities</h1>
             <Button href= "/.Home.js">Skills</Button>
