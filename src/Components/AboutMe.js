@@ -1,10 +1,25 @@
 import React, {Component} from "react";
-import { Toast, ToastBody, ToastHeader, Button } from 'reactstrap';
+import { Toast, ToastBody, ToastHeader, Button, Modal, ModalHeader, ModalBody, ModalFooter } from 'reactstrap';
 import wallpaper5 from '../images/wallpaper5.jpeg';
 import sezf from '../images/sezf.jpg';
 import './AboutMe.css';
 
 class AboutMe extends Component {
+
+  constructor(props) {
+    super(props);
+    this.state = {
+      modal: false
+    };
+
+    this.toggle = this.toggle.bind(this);
+  }
+
+  toggle() {
+    this.setState(prevState => ({
+      modal: !prevState.modal
+    }));
+  }
     render(){
         return (
             <section className="component" id="AboutMe">
@@ -29,9 +44,23 @@ class AboutMe extends Component {
             <Button href= "https://github.com/SusyZapari/susyzapari.github.io/raw/develop/SusanaZapari_Resume.pdf" rel="noopnener noreferrer" target="_blank">Go to my CV</Button>
             
             <h1>Abilities</h1>
-            <Button href= "/.Home.js">Skills</Button>
+            <Button onClick={this.toggle}>Tech Skills</Button>
             <Button onClick>Soft skills</Button>
             <Button onClick>My background</Button>
+
+            <Modal isOpen={this.state.modal} toggle={this.toggle} className={this.props.className}>
+              <ModalHeader toggle={this.toggle}>Tech Skills</ModalHeader>
+              <ModalBody> 
+                <ul>
+                  <li>JavaScript ECMAScript S6</li>
+                  <li>React</li>
+                  <li>React Native</li>
+                </ul>
+              </ModalBody>
+              <ModalFooter>
+                <Button color="secondary" onClick={this.toggle}>Ok</Button>
+              </ModalFooter>
+            </Modal>
             </section>
         );
     }

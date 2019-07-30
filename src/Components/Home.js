@@ -14,9 +14,7 @@ class Home extends Component {
     return (
       <section className= "component homeBackground">
         <Jumbotron fluid>
-        <div> 
-          </div>
-            <h1 className="display-3 text-white">Susana Zápari</h1>
+            <h1 className="display-3 text-white myName">Susana Zápari</h1>
             <h3 className="text-white">Front end Developer</h3>
         </Jumbotron>
         <p className="text-muted" Educating the mind without educating the heart is no education at all Aristotle></p>

@@ -9,7 +9,14 @@
 .component{
     min-height: 100vh;
     justify-content: center;
-    display:flex;
+    /* display:flex; */
     flex-direction: column;
 }
 
+button {
+    display:inline-block;
+}
+
+.myName{
+    padding-top:20%
+}
